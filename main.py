@@ -15,7 +15,8 @@ print(f"""{purple}                  _              ___
  / //_/ _ \ / _` | |/ _` \ \ / / /   
 / __ \ (_) | (_| | | (_| |\ V / /___ 
 \/  \/\___/ \__,_|_|\__,_| \_/\____/ 
-$$$ Win last to leave like nothing $$${white}
+$$$ Win last to leave like nothing $$$
+$$$ Edited version made by 4Cafes $$${white}
 """)
 pth = 'src\\stolen.txt'
 file = open(pth,"w")
