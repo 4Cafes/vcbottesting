@@ -24,10 +24,10 @@ file.write("If this software was sold to you, I am sad to tell you that you have
 file.close()
 token = input("Enter User token: ")
 channelID = int(input("Enter voice channel ID: "))
-#mute_input = input("Mute [true/false]: ")
-#mute = mute_input.upper()
-#def_input = input("Deaf [true/false]:")
-#deaf = def_input.upper()
+mute_input = input("Mute [true/false]: ")
+mute = mute_input.upper()
+def_input = input("Deaf [true/false]:")
+deaf = def_input.upper()
 
 @koala.event
 async def on_message(message):
